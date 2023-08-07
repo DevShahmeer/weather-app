@@ -33,7 +33,7 @@ const CurrentWidget = () => {
           <button onChange={copyShareUrl}>Share</button>
         </div>
         <h2>{location}</h2>
-        <img src={getWeatherIcon(temp)} alt={icon} />
+        <img className="icon" src={getWeatherIcon(icon)} alt={icon} />
         <p>{description}</p>
         <h3>{convertKelvinToFahrenheit(temp)}º</h3>
         <p>{mainDetail}</p>
