@@ -14,7 +14,7 @@ const AirPollutionWidget = () => {
 
     const { airPollutionData } = useWeather();
 
-    if (AirPollutionWidget.loading || Object.keys(AirPollutionWidget.data).length === 0 ) {
+    if (airPollutionData.loading || Object.keys(airPollutionData.data).length === 0 ) {
         return <Loader />
     }
 

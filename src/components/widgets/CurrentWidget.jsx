@@ -14,9 +14,11 @@ const CurrentWidget = () => {
     return <Loader />
   }
 
-  if (weatherData || Object.keys(weatherData.data).length === 0) {
+  if (weatherData.loading || Object.keys(weatherData.data).length === 0) {
     return <Loader />
   }
+
+  console.log("weatherData.data:", weatherData.data);
   const fullWeatherInfo = weatherData.data;
   const { main, name: location, weather} = fullWeatherInfo;
   const { temp, feels_like, humidity, pressure, temp_max, temp_min } = main;

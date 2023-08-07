@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { getWeatherByCity, getWeatherByLatLon } from "../api/weather";
+import { getWeatherByCity, getWeatherByLatLon } from "../thunks/weather";
 
 const initialState = {
     isLoading: false,

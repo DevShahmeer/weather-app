@@ -13,7 +13,7 @@ const AdditionalWidget = () => {
     return <Loader />
   }
 
-  if (weatherData || Object.keys(weatherData.data).length === 0) {
+  if (weatherData.loading || Object.keys(weatherData.data).length === 0) {
     return <Loader />
   }
 
