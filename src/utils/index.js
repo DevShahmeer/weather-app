@@ -5,10 +5,13 @@ import {
     URL_PARAM_LAT, URL_PARAM_LON
 } from "./constants";
 
-export const getData = data => new Data(data * 1000).getData();
+export const getDay = data => new Data(data * 1000).getDay();
 
 export const getHour = data => (new Data(data * 1000).toLocaleTimeString("en-US"));
 
+export const convertKelvinToFahrenheit = k => {
+    return  Math.trunc(((k-273.15)*1.8)+32);
+}
 
 export const getMonth  = data => {
     return new Data(data * 1000).toLocalString('default', {month: 'short'});
