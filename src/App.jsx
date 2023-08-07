@@ -3,6 +3,7 @@ import './App.css'
 import {store} from './store/store'
 import { Provider } from 'react-redux'
 import WeatherProvider from './providers/WeatherProvider';
+import DashBoard from './components/DashBoard';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <Provider store={store}>
         <WeatherProvider>
+          <DashBoard />
         </WeatherProvider>
       </Provider>
       app
