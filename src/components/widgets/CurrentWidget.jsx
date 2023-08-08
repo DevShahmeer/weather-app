@@ -26,7 +26,7 @@ const CurrentWidget = () => {
 
 
   return (
-    <>
+    <div>
       <div className="widget weather-detail">
         <div className="widget-actions">
           <button onChange={resetApp}>Reset</button>
@@ -52,7 +52,7 @@ const CurrentWidget = () => {
           <p><span>Temp min</span> | <span>{convertKelvinToFahrenheit(temp_min)}</span></p>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
