@@ -83,6 +83,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 Enjoy exploring the weather app! If you have any questions or need assistance, please don't hesitate to reach out.
 
-[Live Demo](https://your-weather-app-demo-link.com) | [GitHub Repository](https://github.com/your-username/weather-app)
+[Live Demo] | [GitHub Repository](https://github.com/DevShahmeer/weather-app)
 
 ---
