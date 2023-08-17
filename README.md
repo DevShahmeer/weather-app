@@ -2,6 +2,7 @@
 # Weather App Project
 
 This project is a weather app built using React and Redux that provides real-time weather information, including current weather, 5-day forecast, and air pollution data. The app utilizes the OpenWeatherMap API to fetch weather data based on geolocation or city search.
+<img width="1434" alt="image1" src="https://github.com/DevShahmeer/weather-app/assets/108333592/683dea37-6c67-4c75-a6a7-12bc194cf0c6">
 
 ## Table of Contents
 
